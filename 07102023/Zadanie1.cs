@@ -8,7 +8,6 @@ namespace Zadanie1
 
             while (string.IsNullOrEmpty(input))
             {
-
                 Console.WriteLine("Podaj temperature");
                 input = Console.ReadLine();
             }
