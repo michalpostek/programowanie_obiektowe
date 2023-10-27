@@ -7,7 +7,7 @@ namespace Zadanie8
             Console.WriteLine("Podaj swoją średnią");
             float avg = float.Parse(Console.ReadLine());
             int scholarshipAmount = Zadanie8.GetScholarshipAmount(avg);
-
+                            
             Console.WriteLine("Przysługujące Ci stypendium to {0}.00zł", scholarshipAmount);
         }
 
